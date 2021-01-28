@@ -2,6 +2,11 @@
 using System.IO;
 using System.Collections.Generic;
 
+   /** Class VendingMachine initializes and stores the data
+   * associated with the vending machine, it's available items
+   * and the graphics associated.
+   * This class does not store the Customers information such as balance
+   * */
 class VendingMachine
 {
    static List<Candy> candies = new List<Candy>();
